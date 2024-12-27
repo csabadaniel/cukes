@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CukesApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CukesApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CukesApplication.class, args);
+    }
 
 }
