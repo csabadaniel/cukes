@@ -1,10 +1,14 @@
-package io.github.csabadaniel.cukes;
+package io.github.csabadaniel.cukes.glue;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.spring.CucumberContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 
-public class CukesStepDefinitions extends SpringIntegrationTest {
+@CucumberContextConfiguration
+@SpringBootTest
+public class CukesStepDefinitions {
 
     @Given("I have a feature file")
     public void iHaveAFeatureFile() {
